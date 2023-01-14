@@ -1,0 +1,26 @@
+/* body{
+    background-image: url("img/Netflix\ bg.jpg");
+    background-size: cover;
+}
+ */
+
+ body{
+    
+    background:
+           linear-gradient(
+             rgba(0, 0, 0, 0.7), 
+             rgba(0, 0, 0, 0.7)
+           ),
+           url("img/Netflix\ bg.jpg");
+           background-size: cover;
+           
+ }
+
+ #btn{
+    width: 180px;
+    height: 40px;
+    background-color: red;
+    border: none;
+    
+}
+

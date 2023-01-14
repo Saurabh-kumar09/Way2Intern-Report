@@ -5,8 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
+
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
+    <div class="header">
+        <div class="left" style=" display: inline-block; width: 10%; position: absolute; left: 20px; top: 10px;">
+            <img src="img/Netflix_logo.png" alt = "No imgs" style="width:180px; margin: 40px 0px 0px 50px;">
+        </div>
+
+        <div class="right" style="position: absolute; right: 100px; top: 30px; display: inline-block; width: 10%;">
+            <select style="border: 2px solid rgb(255, 255, 255); background-color: transparent; color: white; width: 70px; height: 40px;">
+                <option value="English">English</option>
+                <option value="Hindi">Hindi</option>
+            </select>
+            <button type="button" style=" margin-left:8px;border-radius: 8px; border:2px solid red; background-color: red; color: white; width: 70px; height: 40px;">Sign In</button>
+        </div>
+        
+    </div>
+    <div class="main">
+        <div class="section" style="color:rgb(255, 255, 255); margin:200px 500px; " >
+            <h1>Unlimited movies, TV <br> shows and more.</h1>
+            <h2>Watch anywhere. Cancel anytime.</h2>
+            <h4>Ready to watch? Enter your email to create or restart your membership.</h4>
+            <input type="email" id="mail-id" value="" placeholder="Enter your mail-id" style="width:280px; height: 40px;">
+            <button type="button" id="btn" >Get Started</button>
+        </div>
+    
     
 </body>
 </html>
