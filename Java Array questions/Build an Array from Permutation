@@ -1,3 +1,4 @@
+//Write a Java program to build an array from permutation
 import java.util.Arrays;
 
 public class buildArray {
@@ -9,7 +10,6 @@ public class buildArray {
             newArr[i] = arr[arr[i]];
         }
         System.out.println(Arrays.toString(newArr));
-        //newArr[i] = arr[arr[i]]
 
     }
 }
