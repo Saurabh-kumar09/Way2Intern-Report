@@ -1,0 +1,21 @@
+//Write a Java program to find sum of elements in an Array
+
+import java.util.Scanner;
+
+public class ElementSum {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter length of an array:");
+        int n = input.nextInt();
+        int[] arr = new int[n];
+        int k;
+        int sum = 0;
+        System.out.print("Enter "+ n + " integers:");
+        for (int i=0; i<arr.length; i++){
+            arr[i] = input.nextInt();
+            k = arr[i];
+            sum = sum +k;
+        }
+        System.out.println(sum);
+    }
+}
