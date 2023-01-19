@@ -1,4 +1,4 @@
-// Print an array of given variable column
+// Print an array of given variable column length
 
 public class arrayTwoD {
     public static void main(String[] args) {
