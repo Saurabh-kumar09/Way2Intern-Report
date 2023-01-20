@@ -59,6 +59,46 @@ button:hover{
 .content-items img{
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background-position: center;
+}
+
+.mid-heading{
+    margin: 30px 450px;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.our-work {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+.item {
+    width: 350px;
+    height: 350px;
+    background-image:linear-gradient(#d67e66,#656bc1);
+    margin: 10px;
+}
+
+#box1 img{
+    width: 350px;
+    height: 300px;
+}
+#box2 img{
+    width: 350px;
+    height: 300px;
+}
+#box3 img{
+    width: 350px;
+    height: 300px;
+}
+
+.item h3{
+    padding:5px 0px 0px 100px;
+}
+
+.item a h3:hover{
+    color: #c7db2c;
 }
