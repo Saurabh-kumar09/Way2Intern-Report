@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="JoinUs.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/38647a07f6.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Join Us</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <i class="fa-solid fa-angle-left"></i>
+            <a href="../index.html">
+                <h3>Go to HomePage</h3>
+            </a>
+        </div>
+    </header>
+    <div class="form-fill">
+        <h2>Volunteer Interest Form</h2>
+        <form action="">
+            <input type="text" name="Name" Placeholder="Enter your Name" id="name" required><br>
+            <input type="email" name="Email" Placeholder="Enter your Email-id" id="email" required><br>
+            <input type="tel" name="phone" Placeholder="Enter your Phone number" pattern="[+91]{1} [0-9]{5}-[0-9]{5}" id="phone" required><br>
+            <select name="Designation" id="designation" required>
+                    <option value="">Choose Your Designation</option>
+                    <option value="1">Student</option>
+                    <option value="2">Professional</option>
+                    <option value="3">Social Worker</option>
+                </select><br>
+            <select name="Gender" id="gender" required>
+                    <option value="">Your Gneder</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                    <option value="3">Other</option>
+                </select><br>
+            <input type="text" name="college" Placeholder="College/Organization/Company" id="college" required><br>
+            <fieldset id="domain">
+                <legend>Choose volunteering Domain</legend>
+                <div>
+                    <input type="checkbox" id="writing" name="interest" value="Writing" />
+                    <label for="writing">Content Writing</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="design" name="interest" value="design" />
+                    <label for="design">Graphics Designer</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="publicity" name="interest" value="publicity" />
+                    <label for="publicity">Publicity</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="marketing" name="interest" value="marketing" />
+                    <label for="marketing">Marketing</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="web" name="interest" value="web" />
+                    <label for="web">Website Team</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="manage" name="interest" value="manage" />
+                    <label for="manage">Management Team</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="sponsor" name="interest" value="sponsor" />
+                    <label for="sponsor">Sponsorship Team</label>
+                </div>
+            </fieldset><br>
+
+            <textarea id="para" name="question" rows="12" cols="50" placeholder="Why do you want to Join Us?">
+                    Why do you want to Join Us?:
+                </textarea><br>
+
+            <button id="btn">Submit</button>
+
+
+
+        </form>
+    </div>
+
+
+</body>
+
+</html>
