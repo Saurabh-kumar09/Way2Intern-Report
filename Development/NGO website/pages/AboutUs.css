@@ -170,3 +170,87 @@ h6 {
     font-size: larger;
     color: #f2b62a;
 }
+
+.section-4 h2 {
+    margin: 75px 0px 50px 550px;
+    font-size: 45px;
+}
+
+.container-4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-4 .member-1,
+.member-2,
+.member-3,
+.member-4,
+.member-5 {
+    border: 3px dashed rgb(0, 0, 0);
+    border-radius: 30px;
+    width: 360px;
+    height: 380px;
+    margin: 0px 40px;
+}
+
+.container-4 img {
+    width: 150px;
+    height: 90px;
+    padding: 35px 0px 0px 108px;
+}
+
+.container-4 h3 {
+    padding-left: 130px;
+}
+
+.container-4 p {
+    padding: 0px 40px;
+}
+
+.container-5 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#c33764, #1d2671);
+    margin: 100px -8px -18px -8px;
+    height: 400px;
+}
+
+.container-5 .column-1 {
+    margin-left: 30px;
+}
+
+.container-5 .column-2 {}
+
+.container-5 .column-3 #name {
+    background: none;
+    margin-bottom: 10px;
+    border-color: #5efce8;
+}
+
+.container-5 .column-3 #email {
+    background: none;
+    margin-bottom: 10px;
+    border-color: #5efce8;
+}
+
+.container-5 .column-3 #query {
+    background: none;
+    margin-bottom: 10px;
+    border-color: #5efce8;
+    color: grey;
+}
+
+.container-5 .column-3 button {
+    background: none;
+    margin-bottom: 10px;
+    border-color: #5efce8;
+    width: 100px;
+    padding: 10px;
+    font-size: medium;
+}
