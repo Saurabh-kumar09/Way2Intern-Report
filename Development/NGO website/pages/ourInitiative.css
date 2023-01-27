@@ -31,3 +31,151 @@
 .navbar h3:hover {
     color: var(--blue);
 }
+
+.container {
+    margin: 70px -8px -18px -8px;
+}
+
+.container h1 {
+    margin: 60px 0px 60px 600px;
+}
+
+.container .column-1 {
+    background: linear-gradient(#614385, #516395);
+    height: 200px;
+    margin: 0px 30px 0px 30px;
+    border-radius: 20px;
+}
+
+img {
+    float: left;
+    margin: 0px 15px 0 20px;
+    padding: 15px 0px 15px 20px;
+}
+
+#content-1 h2 {
+    padding-top: 30px;
+    color: #fffdfd;
+}
+
+#content-1 h5 {
+    color: #fffdfd;
+}
+
+.container .column-2 {
+    background: linear-gradient(#614385, #516395);
+    height: 200px;
+    margin: 0px 30px 0px 30px;
+    border-radius: 20px;
+}
+
+img {
+    float: left;
+    margin: 0px 15px 0 20px;
+    padding: 15px 0px 15px 20px;
+}
+
+#content-2 h2 {
+    padding-top: 30px;
+    color: #fffdfd;
+}
+
+#content-2 h5 {
+    color: #fffdfd;
+}
+
+.container .column-3 {
+    background: linear-gradient(#614385, #516395);
+    height: 200px;
+    margin: 0px 30px 0px 30px;
+    border-radius: 20px;
+}
+
+img {
+    float: left;
+    margin: 0px 15px 0 20px;
+    padding: 15px 0px 15px 20px;
+}
+
+#content-3 h2 {
+    padding-top: 30px;
+    color: #fffdfd;
+}
+
+#content-3 h5 {
+    color: #fffdfd;
+}
+
+.container .column-4 {
+    background: linear-gradient(#614385, #516395);
+    height: 200px;
+    margin: 0px 30px 0px 30px;
+    border-radius: 20px;
+}
+
+img {
+    float: left;
+    margin: 0px 15px 0 20px;
+    padding: 15px 0px 15px 20px;
+}
+
+#content-4 h2 {
+    padding-top: 30px;
+    color: #fffdfd;
+}
+
+#content-4 h5 {
+    color: #fffdfd;
+}
+
+
+/* .container-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#c33764, #1d2671);
+    margin: 100px 0px -18px -8px;
+    height: 400px;
+}
+
+.container-2 .column-5 {
+    margin: -80px 0px 0px 60px;
+}
+
+.container-2 .column-6 {
+    margin: -130px 0px 0px 60px;
+}
+
+.container-2 .column-7 {
+    margin: -90px 0px 0px 60px;
+}
+
+.container-2 .column-7 #name {
+    background: none;
+    margin-bottom: 10px;
+    border-color: #5efce8;
+}
+
+.container-2 .column-7 #email {
+    background: none;
+    margin-bottom: 10px;
+    border-color: #5efce8;
+}
+
+.container-2 .column-7 #query {
+    background: none;
+    margin-bottom: 10px;
+    border-color: #5efce8;
+    color: grey;
+}
+
+.container-3 .column-7 button {
+    background: none;
+    margin-bottom: 10px;
+    border-color: #5efce8;
+    width: 100px;
+    padding: 10px;
+    font-size: medium;
+} */

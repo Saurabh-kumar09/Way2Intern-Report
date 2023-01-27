@@ -111,7 +111,7 @@
 }
 
 .section-2 h1 {
-    margin: 40px 0px 0px 600px;
+    margin: 40px 0px 30px 600px;
 }
 
 .container-2 {
@@ -123,7 +123,84 @@
 }
 
 .box-1 {
-    width: 226x;
-    height: 189px;
-    border: 2px solid green;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    /* width: 250px;
+    height: 50px; */
+    padding: 10px 0px 20px 30px;
+}
+
+.box-2 {
+    border-radius: 20px;
+    background-color: antiquewhite;
+    /* width: 250px;
+    height: 50px; */
+    padding: 10px 0px 20px 40px;
+}
+
+.box-3 {
+    border-radius: 20px;
+    background-color: antiquewhite;
+    /* width: 250px;
+    height: 50px; */
+    padding: 10px 0px 20px 30px;
+}
+
+.box-4 {
+    border-radius: 20px;
+    background-color: antiquewhite;
+    /* width: 250px;
+    height: 50px; */
+    padding: 10px 0px 20px 30px;
+}
+
+.container-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#c33764, #1d2671);
+    margin: 100px 0px -18px -8px;
+    height: 400px;
+}
+
+.container-3 .column-1 {
+    margin: -80px 0px 0px 60px;
+}
+
+.container-3 .column-2 {
+    margin: -130px 0px 0px 60px;
+}
+
+.container-3 .column-3 {
+    margin: -90px 0px 0px 60px;
+}
+
+.container-3 .column-3 #name {
+    background: none;
+    margin-bottom: 10px;
+    border-color: #5efce8;
+}
+
+.container-3 .column-3 #email {
+    background: none;
+    margin-bottom: 10px;
+    border-color: #5efce8;
+}
+
+.container-3 .column-3 #query {
+    background: none;
+    margin-bottom: 10px;
+    border-color: #5efce8;
+    color: grey;
+}
+
+.container-3 .column-3 button {
+    background: none;
+    margin-bottom: 10px;
+    border-color: #5efce8;
+    width: 100px;
+    padding: 10px;
+    font-size: medium;
 }
