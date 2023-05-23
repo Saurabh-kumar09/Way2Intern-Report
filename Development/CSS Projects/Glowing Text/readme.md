@@ -1,0 +1,1 @@
+**Glowing text animation
