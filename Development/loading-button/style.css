@@ -59,5 +59,6 @@ h2 {
     margin-top: 130px;
     background: linear-gradient(to right, #6ef195, #00e3fd, #5257e5);
     -webkit-text-fill-color: transparent;
+    background-clip: text;
     -webkit-background-clip: text;
 }
