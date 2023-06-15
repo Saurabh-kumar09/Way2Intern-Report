@@ -9,6 +9,7 @@ Welcome to Way2Placement, This repository is to track my preparation for placeme
 - [IoT](#iot)
 - [Interview Questions](#interview-questions)
 - [Companies Aptitude & Coding Questions](#companies-aptitude--coding-questions)
+- [Resources](#resources)
 
 ## DSA
 
@@ -34,8 +35,13 @@ The IoT folder focuses on projects and resources related to the Internet of Thin
 
 ## Interview Questions
 
-Here, I'm adding important interview questions 
+Here, I'm adding important interview questions.
 
 ## Companies Aptitude & Coding Questions
 
 The Companies Aptitude & Coding Questions folder contains a curated set of coding questions and aptitude problems frequently asked in placement interviews. 
+
+## Resources
+Here, I'm adding helpful resources to prepare for placement: 
+
+By **Saurabh Kumar**
