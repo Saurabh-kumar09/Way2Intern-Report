@@ -1,4 +1,4 @@
-//Write a Java program tp Shuffle the Array
+//Write a Java program to Shuffle the Array
 
 import java.util.Arrays;
 
