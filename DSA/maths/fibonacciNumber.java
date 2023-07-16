@@ -25,7 +25,8 @@ class Solution {
 } 
 
 
-//Optimized recursive approach
+//Optimized recursive approach** - Through recurrence relation
+// Time complexity : O(2^n)
 public class fibonacciNumber{
     public static void main(String[] args) {
         System.out.println(fib(0));
@@ -35,6 +36,22 @@ public class fibonacciNumber{
             return n;
         }
         return fib(n-1) + fib(n-2);
+    }
+}
+
+
+//Recursive approach - put base condition to find nth value
+public class fibonacciNumber {
+    public static void main(String[] args) {
+        value(1, 0, 1, 0);
+    }
+    static void value(int n, int fNum, int sNum, int nextNum){
+        if(n==4){
+            System.out.println(nextNum);
+            return;
+        }
+        nextNum = fNum + sNum;
+        value(n+1, sNum, nextNum, nextNum);
     }
 }
 
