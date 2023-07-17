@@ -26,7 +26,7 @@ class Solution {
 
 
 //Optimized recursive approach** - Through recurrence relation
-// Time complexity : O(2^n)
+// Time complexity : O(n)
 public class fibonacciNumber{
     public static void main(String[] args) {
         System.out.println(fib(0));
@@ -40,7 +40,7 @@ public class fibonacciNumber{
 }
 
 
-//Recursive approach - put base condition to find nth value
+// Another recursive approach - put base condition to find nth value
 public class fibonacciNumber {
     public static void main(String[] args) {
         value(1, 0, 1, 0);
